@@ -1,3 +1,10 @@
+//==========================================================
+// This program takes a text string from a terminal and
+// sends it through the connected ENRF_24 wireless device
+// to another ENRF_24 wireless device connected to a
+// different MSP430.
+//==========================================================
+
 #include <SPI.h>
 #include <Enrf24.h>
 #include <nRF24L01.h>
